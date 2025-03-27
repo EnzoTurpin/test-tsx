@@ -1,0 +1,44 @@
+{
+  "name": "contact-form-app",
+  "version": "1.0.0",
+  "description": "Application de formulaire de contact avec upload de fichiers",
+  "main": "src/server/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server/index.ts",
+    "dev": "tsx watch src/server/index.ts",
+    "build": "tsc -p tsconfig.server.json",
+    "client": "vite"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.7",
+    "pg": "^8.11.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^7.7.3",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.10.0",
+    "@types/nodemailer": "^6.4.14",
+    "@types/pg": "^8.10.9",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.14",
+    "nodemon": "^3.0.1",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.0"
+  }
+}
